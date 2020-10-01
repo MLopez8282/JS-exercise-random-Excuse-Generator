@@ -1,25 +1,26 @@
 h2{
-    display:flex;
-    justify-content:center;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
-    
-}
-#excuse{
-    padding-bottom:120px;
 }
 .heading{
-    padding-top:100px;
-    
+    padding-top:50px;
 }
-
+#excuse{
+    padding:30px;
+    font-size: 26px;
+}
 .border{
-    
-    border: solid 10px;
-    border-color:rgb(149, 156, 248) rgb(149, 156, 248) blue;
-    border-radius: 20px;
-    margin-top:150px;
-    width:70%;
-    margin-left: 180px;
-    background-image: url("https://wallpapercave.com/wp/KUx1i3R.jpg")
+    display:flex;
+    align-content:flex-start;
+    flex-direction:column;
+    position: absolute;
+    top: 50px;
+}
+body{
+    background-image:url("https://www.stockvault.net/data/2016/05/22/199510/preview16.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height:100vh;
+    margin-top:600px;
 }
