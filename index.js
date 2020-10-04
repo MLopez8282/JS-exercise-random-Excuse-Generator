@@ -4,6 +4,7 @@ let what = ['my homework ', 'the keys ', 'the car '];
 let when = ['before the class ', 'right on time ', 'when I finished ', 'during my lunch ', 'while I was praying '];
 
 
+
 function randomNumber(array) {
 
     return Math.floor(Math.random() * array.length);
@@ -12,7 +13,6 @@ function randomNumber(array) {
 document.querySelector("#excuse").innerHTML = who[randomNumber(who)] + action[randomNumber(action)] + what[randomNumber(what)] + when[randomNumber(when)];
 
 console.log(randomNumber);
-
 
 
 

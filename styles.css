@@ -1,29 +1,43 @@
-h2{
-    font-size: 2.5vw;
-    color: white;
-   
-}
+
+
 .heading{
-    padding-top:400px;
-    padding-left: 32px;
-}
-#excuse{
-    padding-left:35px;
-    font-size: 1.8vw;
-}
-.border{
-    display:flex;
-    align-content:flex-start;
+   
+    padding-left: 200px;
+     display:flex;
+    align-content:center;
     flex-direction:column;
     position: absolute;
-    top: 50px;
+    top: 40px;
+    font-size:5vw;
+    color: rgb(214, 2, 30);
+     -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(7, 119, 194);
 }
+#excuse{
+    padding-left:300px;
+    
+    font-size: 2.5vw;
+     
+   
+    padding-top: 100px;
+
+     display:flex;
+    align-content:center;
+    flex-direction:column;
+    position: absolute;
+    top: 200px;
+    color:rgb(255, 230, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(22, 95, 22);
+    
+}
+
 body{
-    background-image: url('./image/grandma.png');
+    background-image: url('./image/grandma2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     width: 100vw;
-    height:50vh;
+    height:35vh;
     margin-top:600px;
 }
