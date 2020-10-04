@@ -1,7 +1,8 @@
-let who = ['The dog ', 'My grandma ', 'His turtle ', 'My bird '];
-let action = ['ate ', 'peed ', 'crushed ', 'broke '];
+
+let who = ['The dog ', 'My grandma ', 'His pig ', 'My monkey '];
+let action = ['ate ', 'peed ', 'crushed ', 'threw ', 'hid '];
 let what = ['my homework ', 'the keys ', 'the car '];
-let when = ['before the class ', 'right on time ', 'when I finished ', 'during my lunch ', 'while I was praying '];
+let when = ['before  class ', 'while walking ', 'when I was sleeping ', 'while talking ', 'during my lunch ', 'while I was showering '];
 
 
 
