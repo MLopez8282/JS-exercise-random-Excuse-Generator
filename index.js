@@ -6,15 +6,15 @@ let when = ['before  class ', 'while walking ', 'when I was sleeping ', 'while t
 
 
 
-function randomSentence(array) {
+function randomNumber(array) {
     
-    let randomNumber = Math.floor(Math.random() * array.length);
+    return Math.floor(Math.random() * array.length);
 
-    return array[randomNumber]
+    
 
 
 }
-document.querySelector("#excuse").innerHTML = randomSentence(who) + randomSentence(action) + randomSentence(what) + randomSentence(when);
+document.querySelector("#excuse").innerHTML = who[randomNumber(who)] + action[randomNumber(action)] + what[randomNumber(what)] + when[randomNumber(when)];
 
 console.log(randomNumber);
 
